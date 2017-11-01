@@ -1,4 +1,4 @@
-package main // import "github.com/Nomon/nomad-exporter"
+package main
 
 import (
 	"flag"
@@ -10,7 +10,6 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-	//"time"
 
 	"github.com/hashicorp/nomad/api"
 	"github.com/prometheus/client_golang/prometheus"
